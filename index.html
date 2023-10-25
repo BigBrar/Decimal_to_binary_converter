@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decimal-Binary Converter</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Decimal Binary Converter</h2>
+      <div class="wrapper">
+        <div class="input-wrapper">
+          <label for="dec-inp">Decimal:</label>
+          <input type="number" id="dec-inp" />
+          <label for="hex-inp">Hexadecimal:</label>
+          <input disabled type="text" id="hex-inp" />
+        </div>
+        <div class="input-wrapper">
+          <label for="bin-inp">Binary:</label>
+          <input type="number" id="bin-inp" />
+          <label for="oct-inp">Octal:</label>
+          <input disabled type="number" id="oct-inp" />
+        </div>
+      </div>
+      <p id="error-msg"></p>
+    </div>
+    <!-- Script -->
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <script src="script.js"></script>
+  </body>
+</html>
